@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postal Code Website By Ss_Kushwaha</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Create the Navbar -->
+    <nav class="navbar navbar-expand-lg  ">
+        <a class="navbar-brand h1" href="#">PINCODE.AREA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="#">Contact
+                        Me</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="btnn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Create the Main content   -->
+
+    <div class="con-1">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to POSTAL API</h1>
+            <p class="lead">Enter Pin Code & Find Area/Location or City </p>
+            <p class="lead">Now you can search any location using pin code, just enter correct pincode below and we
+                will find a location from our pin codes database....</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p id="toggle-p" class="more-p">This is a simple hero unit, a simple API component for fetching your postal
+                area details.Get Pincode details of all regions of india. Find here the Post office location, full
+                address and its pincode. A Postal Index Number or PIN or Pincode or Zipcode is the post office numbering
+                or post code system used by India Post, the Indian postal administration. The PinCode is 6 digits long.
+                This PinCode system for identifying postal region by using unique code called, PinCode</p>
+            <a class="btn btn-primary btn-lg" role="button" onclick="moreText()">Learn more</a>
+            <div class="social-sect ">
+                <a href="https://www.linkedin.com/in/suraj-kushwaha-b399201a9/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="mailto:surajkushwaha8272@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <a href="https://github.com/Surajkushwaha12" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/suraj_kushwahass/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Create the search box area  -->
+   
+        <div class="container d-flex justify-content-center">
+            <div class="container mx-auto mb-5">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i onclick="getValue()" class="fa fa-search"></i>
+                        </span>
+                    </div>
+                    <input type="text" id="searchInput" class="form-control" placeholder="Enter Your PIN to Search"
+                        onkeydown="handleEnter(event)">
+                </div>
+            </div>
+        </div>
+
+        <!-- create the Error alert area  -->
+        <div class="alert alert-danger container-fluid" id="alert" role="alert" hidden>
+            <h4 class="alert-heading">404</h4>
+            <p>Ooops,Seems like this PIN '<span id="typed_pin"></span>' doesn't exist.</p>
+            <hr>
+            <p class="mb-0">Sorry, We can't seem to find the page you're looking for.</p>
+        </div>
+
+        <!-- Create the main data show area  -->
+        <div id="pindetails" class="row">
+        </div>
+
+
+        <!-- Create the footer section  -->
+        <div class="footer">
+            <div class="footer-sect-det">© 2023 Copyright: Postal_Code.com, All Right Reserved
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <!-- MDB -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</body>
+
+</html>

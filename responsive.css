@@ -1,0 +1,76 @@
+@media (max-width: 366px) {
+    .mb-5P {
+      width: 80vw;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .mb-5 {
+      width: 70vw;
+  
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .mb-5 {
+      width: 50vw;
+  
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .mb-5 {
+      width: 40vw;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .mb-5 {
+      width: 35vw;
+  
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .mb-5 {
+      width: 28rem;
+  
+    }
+  }
+@media (max-width: 540px) {
+    .alert {
+      width: 60vw;
+      font-size: small;
+  
+    }
+  
+    .alert-heading {
+      font-size: 50px;
+    }
+  
+  }
+  
+  @media (min-width: 576px) {
+    .alert {
+      width: 50vw;
+  
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .alert {
+      width: 40vw;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .alert {
+      width: 35vw;
+  
+    }
+  }
+  

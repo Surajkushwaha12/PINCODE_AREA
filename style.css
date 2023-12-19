@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+
+:root {
+    /* --main-bg-color: #2874f0; */
+    --main-bg-color: #b3d7f5;
+    ;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(233, 236, 239) !important;
+}
+
+
+.navbar {
+    /* background-color: #ecdef5; */
+    background-color: var(--main-bg-color) !important;
+
+}
+
+.navbar-brand,
+.nav-link {
+    color: #62118f !important;
+}
+
+.navbar-brand {
+    padding-top: 0.8125rem !important;
+
+}
+
+ul li a {
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+
+#btnn {
+    border-color: rgb(66, 30, 199);
+    color: rgb(66, 30, 199);
+}
+
+#btnn:hover {
+    color: white;
+    background-color: rgb(66, 30, 199);
+}
+.jumbotron {
+    padding: 2.3rem 2.7rem !important;
+}
+
+.social-sect {
+    color: #161515;
+    font-weight: 500;
+    /* font-size: 1.0em; */
+    margin-top: 10px;
+}
+
+.social-sect a {
+    color: #262626;
+    ;
+    /* margin-left: 10px; */
+    text-decoration: none;
+    /* font-size: 10px; */
+    text-align: center;
+
+
+}
+
+.social-sect a i {
+    width: 40px;
+    height: 45px;
+    border: 1px solid #262626;
+    ;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.social-sect a :hover {
+    color: rgb(239, 252, 252);
+    background-color: rgb(39, 108, 236);
+    border: 2px solid #aaa;
+}
+
+.container {
+    margin-top: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.more-p {
+    display: none;
+}
+
+.mb-5 {
+    width: 40vw;
+}
+
+.footer-sect-det {
+    background-color: var(--main-bg-color);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.width-50 {
+    float: left;
+    width: 50%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+
+
+
+
+.alert {
+    text-align: center;
+    width: 400px;
+    margin-bottom: 5em;
+}
+
+.alert-heading {
+    font-size: 70px;
+}
+
+.mb-0 {
+    text-align: start;
+}
+
+
+
+
+#typed_pin {
+    font-weight: 600;
+    font-size: larger;
+    color: #C70039;
+}
+
+.row {
+    
+    margin-right: 30px !important;
+    margin-left: 9px !important;
+}
